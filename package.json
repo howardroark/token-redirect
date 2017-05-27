@@ -1,5 +1,5 @@
 {
-  "name": "github-token",
+  "name": "token-redirect",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/howardroark/github-token.git"
+    "url": "git+https://github.com/howardroark/token-redirect.git"
   },
   "author": "",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/howardroark/github-token/issues"
+    "url": "https://github.com/howardroark/token-redirect/issues"
   },
-  "homepage": "https://github.com/howardroark/github-token#readme",
+  "homepage": "https://github.com/howardroark/token-redirect#readme",
   "dependencies": {
     "express": "^4.15.3",
     "request": "^2.81.0"
