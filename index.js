@@ -3,6 +3,8 @@ var request = require('request');
 
 var app = express();
 
+app.use(express.static('public'));
+
 app.get('/:account/:project', function (req, res) {
     var code = req.params.code;
     var account = req.params.account;
